@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+body{
+    background-color: rgb(11, 142, 115);
+}
+header{
+display: flex;
+align-items: center;
+background: rgb(255,162,141);
+background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(239, 149, 137) 50%, rgb(229, 50, 50) 100%);
+flex-direction: column;
+z-index: 2;
+}
+.knucles{
+width: 50px;
+height: 50px;
+align-items: center;
+}
+header ul li{
+display: inline-block;
+font-size: 15px;
+padding: 15px;
+
+}header ul li:hover{
+    background-color:  rgb(246, 65, 0);
+    transition: 2s;
+    color: white;
+}main{
+    display:flex
+  }
+.fotu{
+    width: 350px;
+    height: 550px;
+    padding: 20px;
+    margin: 20px;
+
+    border-radius: 20%;
+    
+   
+}.introd {
+    font-size: 16px;
+    padding: 20px;
+    color: rgb(1, 4, 4);
+    
+  }.titulo{
+    font-size: 2rem;
+    text-align: center;
+    padding: 25px;
+    text-transform: uppercase;
+    font-family: Sedgwick Ave Display;
+    font-size: 15px;
+    -webkit-text-stroke-color: rgb(218, 120, 118);
+    
+  }footer{
+    display: flex;
+    align-items: center;
+    background: rgb(255,162,141);
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(239, 149, 137) 50%, rgb(229, 50, 50) 100%);
+    flex-direction: column;
+  }.contat{
+    font-size: 12px;
+    font-weight: bold
+  }
+
+  .github{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+  }.linke{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;}
+  
